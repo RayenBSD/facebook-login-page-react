@@ -1,0 +1,139 @@
+#land {
+    display: block;
+    position: relative;
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#land section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+#land section div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#land section div h1 {
+    font-size: 50px;
+    color: #1877F2;
+    font-family: Poppin-lg;
+    text-align: start;
+    width: 100%;
+    font-size: 64px;
+}
+#land section div p {
+    letter-spacing: 1px;
+    font-size: x-large;
+    text-align: start;
+}
+#land section div form {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 15px #a1a1a144;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    display: block;
+}
+#land section div form div {
+    width: 100%;
+    margin-top: 15px;
+}
+#land section div form div input {
+    height: 40px;
+    width: 85%;
+    border: 1px solid #a1a1a144;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+#land section div form div button {
+    background-color: #FFFFFF;
+    border-width: 0px;
+    margin: 0 5px;
+}
+#land section div hr {
+    width: 95%;
+    color: #a1a1a144;
+}
+#land section div div {
+    width: 80%;
+    margin: 10px auto;
+}
+#land section div div p {
+    letter-spacing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #414246;
+}
+#land section div div p a {
+    font-weight: bold;
+    color: #1C1E21;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+#land section div div p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/*Classes*/
+.Log-In a {
+    width: 90%;
+    font-size: x-large;
+    color: #FFFFFF;
+    background-color: #1877F2;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+}
+.Log-In a:hover {
+    background-color: #1467d5;
+}         
+.Forgot-password a {
+    color: #1877F2;
+    font-size: small;
+    margin: 10px auto;
+    transition: 0.5s ease-in-out;
+}
+.Forgot-password a:hover {
+    text-decoration: underline;
+}
+.Create-new-account a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #36A420;
+    color: #FFFFFF;
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    font-size: large;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 15px;
+}
+.Create-new-account a:hover {
+    background-color: #2e871c;
+}

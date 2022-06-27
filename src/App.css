@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: Poppin-md;
+}
+main {
+  background-color: #F0F2F5;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+@font-face {
+  font-family: Poppin-md;
+  src: url("./font/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: Poppin-lg;
+  src: url("./font/Poppins-Bold.ttf");
+}
